@@ -1,0 +1,24 @@
+.contenedor{
+    border: 1px solid #C7CB62;
+    margin: auto;
+    position: absolute;
+    top: 13%;
+    left: 34%;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 400px;
+    height: 290px;
+    margin: 10px;
+    background-color: black;
+    
+}
+
+.contenedor h1{
+    color: #79D2D2;
+}
+
+.contenedor p{
+    color: white;
+    font-size: 18px;
+    margin: 5;
+}

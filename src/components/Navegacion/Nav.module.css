@@ -1,0 +1,25 @@
+.contenedor{
+    display: flex;
+    justify-content: flex-end;
+    background:linear-gradient(to right, #79D2D2, #C7CB62);
+    border-radius: 5px;
+
+}
+
+.contenedor button{
+    width: 70px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 7px;
+    border: none;
+}
+
+.contenedor button:hover{
+    cursor: pointer;
+    background-color: #79D2D2;
+}
+
+.contenedor input{
+    padding: 6px 10px;
+    border-radius: 5px;
+border:none;}

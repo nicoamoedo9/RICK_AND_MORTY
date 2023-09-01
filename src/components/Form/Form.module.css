@@ -1,0 +1,56 @@
+body{
+    background-image: url(rick-and-morty1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height : 100vh;
+    background-attachment: fixed;
+}
+
+.contenedor{
+    display:  grid;
+    place-items: center;
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 34%;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 400px;
+    height: 337px;
+    margin: 10px;
+    opacity: 0.8;
+    
+}
+
+.contenedor input{
+    margin: 2px;
+    padding: 7px 40px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.contenedor button{
+    margin: 20px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:white;
+    font-family: cursive;
+}
+.contenedor button:hover{
+    background-color: #79D2D2;
+}
+
+.contenedor h2{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 2px;
+    color: #79D2D2;
+    font-family: cursive;
+}
+
+.contenedor p{
+    color: white;
+    font-size: 14px;
+    margin: 4px;
+}

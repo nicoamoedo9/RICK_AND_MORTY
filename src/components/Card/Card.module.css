@@ -1,0 +1,40 @@
+.contenedor{
+    display: inline-block;
+    border: 1px solid white;
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.contenedor h2{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace ;
+}
+
+.botones{
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.boton_cerrar{
+    
+    margin: 2px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.boton_cerrar:hover{
+    background-color:#79D2D2;
+}
+.contenedor image{
+    position: relative;
+}
+
+.link{
+    text-decoration: none;
+}
